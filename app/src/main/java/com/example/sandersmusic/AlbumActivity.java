@@ -6,15 +6,14 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
-public class Playlist extends AppCompatActivity {
+public class AlbumActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_playlist);
+        setContentView(R.layout.activity_album);
 
         // Find the View with play button
         Button playButton = (Button) findViewById(R.id.play_button);

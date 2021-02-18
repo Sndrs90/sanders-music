@@ -27,7 +27,7 @@
                 android:layout_height="150dp"
                 android:layout_weight="2"
                 android:scaleType="fitStart"
-                android:src="@drawable/playlist1" />
+                android:src="@drawable/playlist2" />
 
             <TextView
                 android:layout_width="0dp"
@@ -37,7 +37,7 @@
                 android:layout_marginLeft="8dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:text="Best Guitar Solos" />
+                android:text="Funky Grooves" />
 
         </LinearLayout>
         <LinearLayout
@@ -64,7 +64,7 @@
                 android:text="Play"
                 android:textColor="@color/white"
                 app:strokeColor="@color/white"
-                app:strokeWidth="2dp"/>
+                app:strokeWidth="2dp" />
         </LinearLayout>
 
         <TextView
@@ -73,7 +73,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="1. Led Zeppelin - Stairway to Heaven"
+            android:text="1. Sly &amp; the Family Stone - If You Want Me to Stay"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="2. Pink Floyd - Comfortably Numb"
+            android:text="2. The Meters - Good Old Music"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -89,7 +89,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="3. Jimi Hendrix - All Along the Watchtower"
+            android:text="3. The Jimmy Castor Bunch - It's Just Begun"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -97,7 +97,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="4. Guns N' Roses - November Rain"
+            android:text="4. Funkadelic - One Nation Under A Groove"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -105,7 +105,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="5. The Eagles - Hotel California"
+            android:text="5. Oliver Cheatham - Get Down Saturday Night"
             android:textStyle="bold"/>
 
 

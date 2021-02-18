@@ -38,7 +38,7 @@
                 <ImageView
                     android:id="@+id/playlist1"
                     android:layout_width="wrap_content"
-                    android:layout_height="180dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitStart"
                     android:src="@drawable/playlist1" />
 
@@ -46,6 +46,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:text="Best guitar solos"/>
             </LinearLayout>
             <LinearLayout
@@ -55,16 +58,18 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/playlist2"
                     android:layout_width="wrap_content"
-                    android:layout_height="180dp"
-
-
+                    android:layout_height="150dp"
                     android:scaleType="fitStart"
                     android:src="@drawable/playlist2" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:text="Funky grooves"/>
             </LinearLayout>
         </LinearLayout>
@@ -91,8 +96,9 @@
 
 
                 <ImageView
+                    android:id="@+id/album1"
                     android:layout_width="wrap_content"
-                    android:layout_height="180dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitStart"
                     android:src="@drawable/foofighters_album" />
 
@@ -100,6 +106,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:text="Foo Fighters - Wasting Light"/>
             </LinearLayout>
             <LinearLayout
@@ -109,14 +118,18 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/album2"
                     android:layout_width="wrap_content"
-                    android:layout_height="180dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitStart"
                     android:src="@drawable/rhcp_album" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
                     android:text="Red Hot Chili Peppers - The Getaway"/>
             </LinearLayout>
         </LinearLayout>

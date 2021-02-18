@@ -22,12 +22,11 @@
             android:baselineAligned="false">
 
             <ImageView
-                android:id="@+id/playlist_img"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="2"
                 android:scaleType="fitStart"
-                android:src="@drawable/playlist1" />
+                android:src="@drawable/rhcp_album" />
 
             <TextView
                 android:layout_width="0dp"
@@ -37,7 +36,7 @@
                 android:layout_marginLeft="8dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:text="Best Guitar Solos" />
+                android:text="Red Hot Chili Peppers - The Getaway" />
 
         </LinearLayout>
         <LinearLayout
@@ -46,13 +45,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buy_button"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="20dp"
                 android:backgroundTint="@color/white"
-                android:text="Download"
+                android:text="Buy"
                 android:textColor="@color/black" />
 
             <Button
@@ -73,7 +72,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="1. Led Zeppelin - Stairway to Heaven"
+            android:text="1. The Getaway"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +80,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="2. Pink Floyd - Comfortably Numb"
+            android:text="2. Dark Necessities"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -89,7 +88,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="3. Jimi Hendrix - All Along the Watchtower"
+            android:text="3. We Turn Red"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -97,7 +96,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="4. Guns N' Roses - November Rain"
+            android:text="4. The Longest Wave"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -105,7 +104,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="5. The Eagles - Hotel California"
+            android:text="5. Goodbye Angels"
             android:textStyle="bold"/>
 
 

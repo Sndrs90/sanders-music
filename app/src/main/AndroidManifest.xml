@@ -9,8 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SandersMusic">
-        <activity android:name=".Playlist"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".PaymentActivity"></activity>
+        <activity
+            android:name=".AlbumActivity2"
+            android:label="Album"></activity>
+        <activity
+            android:name=".Playlist2"
+            android:label="Playlist"></activity>
+        <activity
+            android:name=".AlbumActivity"
+            android:label="Album"></activity>
+        <activity
+            android:name=".Playlist"
+            android:label="Playlist"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Music">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
