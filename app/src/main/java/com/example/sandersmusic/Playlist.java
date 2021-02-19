@@ -29,5 +29,19 @@ public class Playlist extends AppCompatActivity {
                 toast.show();
             }
         });
+
+        // Find the View with download button
+        Button downloadButton = (Button) findViewById(R.id.download_button);
+
+        // Set a click listener on that View
+        downloadButton.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the album2 image is clicked on.
+            @Override
+            public void onClick(View view) {
+                Context context = getApplicationContext();
+                Toast toast = Toast.makeText(context, "It will be possible soon", Toast.LENGTH_LONG);
+                toast.show();
+            }
+        });
     }
 }

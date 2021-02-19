@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Sanders Music</string>
+
+    // MainActivity String variables
+    <string name="playlists">Playlists</string>
+    <string name="best_guitar_solos">Best Guitar Solos</string>
+    <string name="funky_grooves">Funky Grooves</string>
+    <string name="albums">Albums</string>
+    <string name="wasting_light">Foo Fighters - Wasting Light</string>
+    <string name="the_getaway">Red Hot Chili Peppers - The Getaway</string>
+    <string name="playlist1_cover">Playlist1 cover</string>
+    <string name="playlist2_cover">Playlist2 cover</string>
+    <string name="album1_cover">Album1 cover</string>
+    <string name="album2_cover">Album2 cover</string>
+
+    // Playlist1 String variables
+    <string name="download">Download</string>
+    <string name="play">Play</string>
+    <string name="song1">1. Led Zeppelin - Stairway to Heaven</string>
+    <string name="song2">2. Pink Floyd - Comfortably Numb</string>
+    <string name="song3">3. Jimi Hendrix - All Along the Watchtower</string>
+    <string name="song4">4. Guns N\' Roses - November Rain</string>
+    <string name="song5">5. The Eagles - Hotel California</string>
+
+    // Playlist2 String variables
+    <string name="song1_2">1. Sly &amp; the Family Stone - If You Want Me to Stay</string>
+    <string name="song2_2">2. The Meters - Good Old Music</string>
+    <string name="song3_2">3. The Jimmy Castor Bunch - It\'s Just Begun</string>
+    <string name="song4_2">4. Funkadelic - One Nation Under A Groove</string>
+    <string name="song5_2">5. Oliver Cheatham - Get Down Saturday Night</string>
+
+    // Album1 String variables
+    <string name="buy">Buy</string>
+    <string name="song1_3">1. Bridge Burning</string>
+    <string name="song2_3">2. Rope</string>
+    <string name="song3_3">3. Dear Rosemary</string>
+    <string name="song4_3">4. White Limo</string>
+    <string name="song5_3">5. Arlandria</string>
+
+    // Album2 String variables
+    <string name="song1_4">1. The Getaway</string>
+    <string name="song2_4">2. Dark Necessities</string>
+    <string name="song3_4">3. We Turn Red</string>
+    <string name="song4_4">4. The Longest Wave</string>
+    <string name="song5_4">5. Goodbye Angels</string>
+
 </resources>

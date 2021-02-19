@@ -27,17 +27,18 @@
                 android:layout_height="150dp"
                 android:layout_weight="2"
                 android:scaleType="fitStart"
-                android:src="@drawable/playlist1" />
+                android:src="@drawable/playlist1"
+                android:contentDescription="@string/playlist1_cover" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="3"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:text="Best Guitar Solos" />
+                android:text="@string/best_guitar_solos"
+                android:layout_marginStart="8dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -46,13 +47,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/download_button"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:backgroundTint="@color/white"
-                android:text="Download"
+                android:text="@string/download"
                 android:textColor="@color/black" />
 
             <Button
@@ -61,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="20dp"
-                android:text="Play"
+                android:text="@string/play"
                 android:textColor="@color/white"
                 app:strokeColor="@color/white"
                 app:strokeWidth="2dp"/>
@@ -73,7 +74,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="1. Led Zeppelin - Stairway to Heaven"
+            android:text="@string/song1"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +82,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="2. Pink Floyd - Comfortably Numb"
+            android:text="@string/song2"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -89,7 +90,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="3. Jimi Hendrix - All Along the Watchtower"
+            android:text="@string/song3"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -97,7 +98,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="4. Guns N' Roses - November Rain"
+            android:text="@string/song4"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
@@ -105,9 +106,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="18sp"
-            android:text="5. The Eagles - Hotel California"
+            android:text="@string/song5"
             android:textStyle="bold"/>
-
-
     </LinearLayout>
 </ScrollView>

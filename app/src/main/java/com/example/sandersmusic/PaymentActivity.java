@@ -16,11 +16,12 @@ public class PaymentActivity extends AppCompatActivity {
 
         // Find the View with payment text
         TextView paymentText = (TextView) findViewById(R.id.payment_text);
-        String text = paymentText.getText().toString();
-        text += " I will use it to integrate Google Play Billing. ";
-        text += "Steps to do this located here: ";
-        text += "https://developer.android.com/google/play/billing/integrate#java";
 
+        //Set payment text with information I found
+        String text = paymentText.getText().toString();
+        text += "\nI will use it to integrate Google Play Billing. \n";
+        text += "Steps to do this located here: \n";
+        text += "https://developer.android.com/google/play/billing/integrate#java";
         paymentText.setText(text);
     }
 }

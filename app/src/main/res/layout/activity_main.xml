@@ -15,11 +15,8 @@
 
         <TextView
             android:id="@+id/playlists"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Playlists"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="@string/playlists"
+            style="@style/BigHeaders" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +37,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/playlist1" />
+                    android:src="@drawable/playlist1"
+                    android:contentDescription="@string/playlist1_cover" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -49,7 +47,8 @@
                     android:layout_marginRight="8dp"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="Best guitar solos"/>
+                    android:text="@string/best_guitar_solos"
+                    android:layout_marginEnd="8dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dp"
@@ -62,7 +61,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/playlist2" />
+                    android:src="@drawable/playlist2"
+                    android:contentDescription="@string/playlist2_cover"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,17 +70,15 @@
                     android:layout_marginRight="8dp"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="Funky grooves"/>
+                    android:text="@string/funky_grooves"
+                    android:layout_marginEnd="8dp" />
             </LinearLayout>
         </LinearLayout>
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Albums"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="@string/albums"
+            style="@style/BigHeaders" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,7 +98,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/foofighters_album" />
+                    android:src="@drawable/foofighters_album"
+                    android:contentDescription="@string/album1_cover"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -109,7 +108,8 @@
                     android:layout_marginRight="8dp"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="Foo Fighters - Wasting Light"/>
+                    android:text="@string/wasting_light"
+                    android:layout_marginEnd="8dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dp"
@@ -122,7 +122,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/rhcp_album" />
+                    android:src="@drawable/rhcp_album"
+                    android:contentDescription="@string/album2_cover"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -130,7 +131,8 @@
                     android:layout_marginRight="8dp"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="Red Hot Chili Peppers - The Getaway"/>
+                    android:text="@string/the_getaway"
+                    android:layout_marginEnd="8dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
