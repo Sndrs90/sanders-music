@@ -26,4 +26,52 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Image views in Main Activity. -->
+    <style name="ImagesMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
+    <!-- Secondary texts in Main Activity. -->
+    <style name="SecondaryTexts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Track Names in Playlist Activity. -->
+    <style name="TrackNames">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Play Buttons in Playlist and Album Activity. -->
+    <style name="PlayButtons">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Images in Playlist and Album Activity. -->
+    <style name="ImagesNotMain">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
 </resources>

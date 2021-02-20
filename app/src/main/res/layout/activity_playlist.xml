@@ -23,12 +23,9 @@
 
             <ImageView
                 android:id="@+id/playlist_img"
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="2"
-                android:scaleType="fitStart"
                 android:src="@drawable/playlist1"
-                android:contentDescription="@string/playlist1_cover" />
+                android:contentDescription="@string/playlist1_cover"
+                style="@style/ImagesNotMain"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -58,55 +55,24 @@
 
             <Button
                 android:id="@+id/play_button"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
                 android:text="@string/play"
-                android:textColor="@color/white"
-                app:strokeColor="@color/white"
-                app:strokeWidth="2dp"/>
+                style="@style/PlayButtons"/>
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song1"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song2"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song4"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song5"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
     </LinearLayout>
 </ScrollView>
