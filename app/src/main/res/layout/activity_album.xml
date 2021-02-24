@@ -22,22 +22,13 @@
             android:baselineAligned="false">
 
             <ImageView
-                android:layout_width="0dp"
-                android:layout_height="150dp"
-                android:layout_weight="2"
-                android:scaleType="fitStart"
                 android:src="@drawable/foofighters_album"
-                android:contentDescription="@string/album1_cover" />
+                android:contentDescription="@string/album1_cover"
+                style="@style/ImagesNotMain"/>
 
             <TextView
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginStart="8dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:text="@string/wasting_light" />
+                android:text="@string/wasting_light"
+                style="@style/HeadersSecondary"/>
 
         </LinearLayout>
         <LinearLayout
@@ -47,66 +38,31 @@
 
             <Button
                 android:id="@+id/buy_button"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:backgroundTint="@color/white"
                 android:text="@string/buy"
-                android:textColor="@color/black" />
+                style="@style/DownloadBuyButtons"/>
 
             <Button
                 android:id="@+id/play_button"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
                 android:text="@string/play"
-                android:textColor="@color/white"
-                app:strokeColor="@color/white"
-                app:strokeWidth="2dp"/>
+                style="@style/PlayButtons"/>
+
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song1_3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song2_3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song3_3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song4_3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:textSize="18sp"
             android:text="@string/song5_3"
-            android:textStyle="bold"/>
+            style="@style/TrackNames"/>
 
     </LinearLayout>
 </ScrollView>

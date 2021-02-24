@@ -22,41 +22,29 @@
             android:baselineAligned="false">
 
             <ImageView
-                android:id="@+id/playlist_img"
                 android:src="@drawable/playlist1"
                 android:contentDescription="@string/playlist1_cover"
                 style="@style/ImagesNotMain"/>
 
             <TextView
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:text="@string/best_guitar_solos"
-                android:layout_marginStart="8dp" />
+                style="@style/HeadersSecondary"/>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <Button
                 android:id="@+id/download_button"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
                 android:text="@string/download"
-                android:textColor="@color/black" />
+                style="@style/DownloadBuyButtons"/>
 
             <Button
                 android:id="@+id/play_button"
                 android:text="@string/play"
                 style="@style/PlayButtons"/>
+
         </LinearLayout>
 
         <TextView

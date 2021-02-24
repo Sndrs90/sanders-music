@@ -66,6 +66,16 @@
         <item name="strokeWidth">2dp</item>
     </style>
 
+    <!-- Download and Buy Buttons in Playlist and Album Activity. -->
+    <style name="DownloadBuyButtons">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
     <!-- Images in Playlist and Album Activity. -->
     <style name="ImagesNotMain">
         <item name="android:layout_width">0dp</item>
@@ -73,5 +83,22 @@
         <item name="android:layout_weight">2</item>
         <item name="android:scaleType">fitStart</item>
     </style>
+
+    <!-- Header in Playlist and Album Activity. -->
+    <style name="HeadersSecondary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+
 
 </resources>
